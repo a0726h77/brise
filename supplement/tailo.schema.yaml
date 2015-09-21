@@ -59,6 +59,7 @@ speller:
     - xform/(ú|ù|û|ū|ǔ|u̍|Ū)/u/
     - xform/(ḿ|m̂|m̄|m̍)/m/
     - xform/(ń|ǹ|n̂|n̄|ň)/n/
+    - derive/([aeiou])([hkpt])/$1/                                # 懶音 (六 七 八 鴨 肉)
     - derive/(\<|^)p/b/                                           # 台通
     - derive/(\<|^)ph/p/                                          # 台通
     - derive/(\<|^)b/bh/                                          # 台通
@@ -75,7 +76,6 @@ speller:
     - derive/ian(\>|$)/en/                                        # 台通
     - derive/(\<|^)ts/z/                                          # 閩拼
     - derive/(\<|^)j/z/                                           # 閩拼
-    - derive/([aeiou])([hkpt])/$1/                                # 懶音 (六 七 八 鴨 肉)
     - derive/(\<|^)tsh/ts/                                        # 懶音 七 tshit -> tsi
     - derive/ing(\>|$)/in/                                        # 懶音 眼 ging -> gin
     - derive/(\<|^)i/y/                                           # 容錯 勇 iong -> yong
